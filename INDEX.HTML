@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Portfolio</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+         <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                background-color: rgb(2, 32, 32);
+                color:white;
+                font-family:'Poppins', sans-serif ;
+
+            }
+
+            
+            nav{
+                display:flex;
+                justify-content: space-around;
+                align-items:center;
+                height:80px;
+                
+                background: linear-gradient(rgb(2, 53, 61), rgb(7, 120, 120),white)
+
+            }
+            nav ul{
+                display:flex;
+                justify-content: center;
+            }
+            nav ul li {
+                list-style:none;
+                margin:0 23px;
+
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:white;
+
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color:rgb(24, 240, 240);
+                font-size:1.05rem;
+
+            }
+            .left{
+                font-size:1.2rem;
+            }
+            .firstsection{
+                display: flex;
+                justify-content:space-around;
+                margin: 80px 0;
+                align-items: center;
+
+            }
+            .firstsection > div{
+               width:30%;
+            }
+            .leftsection{
+                font-size: 2.5rem;
+                width:70%;
+            }
+            .rightsection{
+                
+                width:50%;
+            }
+            .rightsection img{
+                width:100%;
+                margin-top: 50px 0;
+                height:400px;
+                
+            }
+            .purple{
+                color:rgb(78, 238, 244)
+            }
+            #element{
+                color:rgb(43, 220, 226);
+            }
+            .secondsection{
+                max-width: 60vw;
+                margin:auto;
+                height:80vh;
+              
+            }
+            .secondsection .box{
+                background-color: aliceblue;
+                width:75vw;
+                height:0.5vh;
+                margin:40px 0;
+                
+                display:flex;
+                
+            }
+            main hr{
+                border:0;
+                background-color:rgb(48, 233, 220) ;
+                height:1.2px;
+                margin: 60px 14px;
+            }
+            .secondsection h1{
+                font-size: 2rem;
+            }
+            text-grey{
+                color:rgb(94, 92, 92);
+            }
+            .secondsection .vertical{
+                            height:196px;
+                            width:1px;
+                            background-color: aliceblue;
+                            margin : 0 80px ;
+                            margin-left:20px;
+            }
+            .image-top{
+                width:23px;
+                position: relative;
+                top:-32px;
+                left:-9px;
+            }
+            .vertical-title{
+                    position:relative;
+                    top:75px;
+                    width:80px;
+                    font-size: small;
+            }
+            
+           footer{
+            background:linear-gradient(rgb(10, 60, 64),rgb(7, 157, 157),rgb(102, 238, 238)) ;
+            height:200px;
+           }
+           footer{
+            display:flex;
+            padding: 23px 122px;
+            align-items:center;
+            justify-content: space-evenly;
+
+           }
+           footer ul{
+            list-style: none;
+           }
+           .footer>div{
+            width:223px;
+           }
+           footer.footer-rights{
+            text-align: center;
+            color: grey;
+            padding:12px 0;
+
+           }
+           .bts{
+            padding:12px;
+            background:linear-gradient(rgb(10, 56, 56),rgb(4, 131, 131),rgb(116, 177, 192));
+            margin:30px;
+            height:80px;
+            width:180px;
+            color: white;
+            border:2px solid white;
+            border-radius: 5px;
+            font-size:20px;
+            cursor:pointer;
+
+            
+           }
+           .bts:hover{
+            color:rgb(7, 90, 90);
+            background: rgb(2, 31, 31);
+           }
+           .bts a{
+            text-decoration: none;
+            color:aliceblue;
+           
+
+           }
+           .second ul li a{
+            position: relative;
+            text-decoration: none;
+                color:white;
+           }
+           .second ul li a:hover{
+                text-decoration: none;
+                color:rgb(24, 240, 240);
+                font-size:1.01rem;
+
+           }
+          
+         </style>
+
+    </head>
+    <body>
+        
+
+        <header>
+            <nav >
+                
+                <div class="left">INDRAKSHI'S PORTFOLIO</div>
+                <div class="right">
+                    <ul>
+                       <li><a href="INDEX.HTML">Home</a></li>
+                       <li> <a href="about.html">About</a></li>
+                        <li><a href="#second">Skills</a></li>
+                       
+                        <li><a href="https://github.com/indraxi?tab=repositories">Projects</a></li>
+                       <li> <a href="contact.html">Contact me</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+
+                <div class="leftsection">Hi , my name is <span class="purple">Indrakshi Chatterjee</span>
+                   <div> and I am  </div>
+                  
+                   <span id="element"></span>
+                   <div class="buttons">
+                    <button class="bts"><a href="RESUME2024.pdf">Download Resume</a></button></div>
+                </div>
+                <div class="rightsection">
+                  <img src="woman.png" alt=""></img>
+                </div>
+                
+                
+
+            </section>
+            
+            <hr>
+            <section class="secondsection" id="second">
+                <span class="text-grey">What I have done so far</span>
+                <h1>Skills Developed</h1>
+                <div class="box" >
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="html.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">HTML(2017-2018)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="css.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">CSS (2017-2018)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="c.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">C programming language(2018-2019)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="c++.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">C++ (2018-2019)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="java.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">Java(2019-2020)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="python.jpeg" alt=""></img>
+                    </div>
+                    <div class="vertical-title">Python (2020-2021)</div>
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="js.png" alt=""></img>
+                    </div>
+                    <div class="vertical-title">Javascript(2021-2022)</div>
+                    
+                 
+                    
+
+            </section>
+        </main>
+        <footer>
+            <div class="first">
+                <h3>My Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="INDEX.HTML">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                     <li><a href="#second">Skills</a></li>
+                    
+                    
+                    <li> <a href="contact.html">Contact me</a></li>
+                 </ul>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; indrakshisportfolio.com | All rights reserved
+            </div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['a full stack developer', 'an AIML enthusiast',' an  aspiring SDE .'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+    </html> 
